@@ -10,7 +10,9 @@ export default function App() {
 
   return (
     <div>
-      <Banner />
+      <div className="bg-desaturated">
+        <Banner />
+      </div>
       <Filter
         labelTag={labelTag}
         deleteTag={(i) => deleteTag(i)}
